@@ -14,6 +14,11 @@ export const MuiButton = () => {
           <Button variant='outlined' color='info'>Infor</Button>
           <Button variant='contained' color='error'>ERROR</Button>
       </Stack >
+      <Stack display='block' spacing={2} direction='row'>
+        <Button variant='contained' size='small' color='primary'>PRIMARY</Button>
+        <Button variant='contained' size='medium' color='primary'>MEDIUM</Button>
+        <Button variant='contained' size='large' color='primary'>LARGE</Button>
+      </Stack>
     </Stack>
    
   )
